@@ -36,9 +36,9 @@ class _CounterScreenState extends State<CounterScreen> {
               style:
                   const TextStyle(fontSize: 150, fontWeight: FontWeight.w400),
             ),
-            const Text(
-              'Clicks',
-              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w400),
+            Text(
+              clickCounter == 1 ? 'Clik' : 'Clicks',
+              style: const TextStyle(fontSize: 25, fontWeight: FontWeight.w400),
             )
           ],
         ),
