@@ -17,7 +17,8 @@ class _CounterScreenState extends State<CounterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Contador 210373'),
+        //Cuando añadimos un center, necesitamos añadir el hijo: child o children
+        title: const Center(child: Text('Contador 210373')),
         actions: [
           IconButton(
             onPressed: () {
