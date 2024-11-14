@@ -1,23 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:helloworld_app_210373/presentation/screens/counter_screen.dart';
+import 'package:helloworld_app_210373/presentation/screens/counter/counter_screen.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:helloworld_app_210373/presentation/screens/counter/counter_functions_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
-        //Quitar el modo de desarrollo
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData (
-          colorSchemeSeed: Colors.blue
-        ),
-        home: (
-          CounterScreen()
-        ));
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        textTheme: GoogleFonts.amaticScTextTheme(),
+      ),
+      home: const CounterFunctionsScreen(),
+    );
   }
 }
