@@ -17,3 +17,6 @@ por el M.T.I Marco A. Ramírez Hernández
 
 ## AUTOR
 Elaborado por: Juan Manuel Cruz Ortiz [@jjuancoo](https://github.com/jjuancoo)
+
+![Captura de pantalla 2024-11-13 223529](https://github.com/user-attachments/assets/ee266eb7-9f86-45c5-9196-5933efac566b)
+![LOGO UNIVERSIDAD 1](https://github.com/user-attachments/assets/f0c4f5fc-173d-4ee0-b9ee-023ca1fe3ea9)
