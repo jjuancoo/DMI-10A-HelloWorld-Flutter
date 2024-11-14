@@ -36,8 +36,8 @@ Desarrollar una aplicación en Flutter que contenga un contador cuyo color cambi
 Este proyecto es una aplicación móvil en Flutter que incluye un contador con dos botones para aumentar o disminuir su valor. Los colores tanto del contador como de los botones variarán dependiendo del valor del contador:
 
     Azul cuando el contador esté en 0.
-    Verde si el contador es positivo.
-    Rojo si el contador es negativo.
+    Indigo si el contador es positivo.
+    Negro si el contador es negativo.
 
 La aplicación también emplea Google Fonts para una tipografía personalizada, mejorando el diseño visual de la interfaz. El estado del contador se gestionará eficientemente mediante el sistema de gestión de estado de Flutter.
 
